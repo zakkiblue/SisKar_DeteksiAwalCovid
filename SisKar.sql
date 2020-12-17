@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS ds_evidences;
 CREATE TABLE IF NOT EXISTS ds_evidences(
     id INT AUTO_INCREMENT,
     code VARCHAR(3),
-    name VARCHAR(30),
+    name VARCHAR(255),
     PRIMARY KEY (id)
 ) ENGINE=MyISAM CHARSET=utf8;
 
