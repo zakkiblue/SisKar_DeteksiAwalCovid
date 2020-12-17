@@ -189,7 +189,7 @@ if(isset($_POST['evidence'])){
         print_r($densitas_baru);
         
         //--- menampilkan hasil akhir
-        echo "== HASIL AKHIR ==\n";
+        echo "<div>== HASIL AKHIR ==</div>\n";
         $codes=array_keys($densitas_baru); 
         $final_codes=explode(',',$codes[0]);
         $sql="SELECT GROUP_CONCAT(name)  
